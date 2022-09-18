@@ -54,7 +54,7 @@ function Post(props){
         <div class="fundo">
           <div class="acoes">
             <div>
-              {curtido ? <ion-icon onClick={curtir} name="heart" color='red'></ion-icon> : <ion-icon onClick={curtir} name="heart-outline"></ion-icon>}
+              {curtido ? <ion-icon onClick={curtir} name="heart" style={{color: "red"}}></ion-icon> : <ion-icon onClick={curtir} name="heart-outline"></ion-icon>}
               <ion-icon name="chatbubble-outline"></ion-icon>
               <ion-icon name="paper-plane-outline"></ion-icon>
             </div>
