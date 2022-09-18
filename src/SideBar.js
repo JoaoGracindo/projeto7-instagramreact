@@ -1,4 +1,5 @@
 import Sugestoes from "./Sugestoes";
+import React from 'react';
 
 
 let usuario = {
@@ -8,12 +9,20 @@ let usuario = {
 }
 
 function Usuario(props){
+    const [nome, setNome] = React.useState(props.nome);
+    const [img, setImg] = React.useState(props.img);
+
+
     return(
         <div className="usuario">
-            <img src={props.img}/>
+            <img onClick={() => setImg(prompt('Insira a novaurl'))} src={img}/>
             <div className="texto">
                 <strong>{props.user}</strong>
-                {props.nome}
+                <span>
+                    {nome}
+                    <ion-icon onClick={() => setNome(prompt('Insira novo nome'))} name="pencil"></ion-icon>
+                </span>
+               
             </div>
 
         </div>

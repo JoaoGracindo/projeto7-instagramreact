@@ -9,7 +9,7 @@ export default function NavBar(){
                 </div>
 
                 <div className="pesquisa">
-                    <input></input>
+                    <input type="text" placeholder="Pesquisar" />
                 </div>
 
                 <div className="icones">

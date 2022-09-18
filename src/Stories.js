@@ -53,7 +53,9 @@ export default function Stories(){
     return(
         <div className="stories">
             {paginas.map((p) => <Story img={p.imagem} nome={p.nome} />)}
-            <ion-icon className="setinha" name="chevron-forward-circle-outline"></ion-icon>
+            <div class="setinha">
+             <ion-icon name="chevron-forward-circle"></ion-icon>
+            </div>
         </div>
     )
 }
