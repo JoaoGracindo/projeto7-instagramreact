@@ -24,10 +24,12 @@ let paginas = [
     {
         nome: "respondeai",
         imagem: "/img/respondeai.svg"
-    },    {
+    },
+    {
         nome: "filomoderna",
         imagem: "/img/filomoderna.svg"
-    },    {
+    },
+    {
         nome: "memeriagourmet",
         imagem: "/img/memeriagourmet.svg"
     }
