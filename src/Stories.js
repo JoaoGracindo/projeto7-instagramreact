@@ -1,3 +1,4 @@
+import Story from './Story';
 
 
 let paginas = [
@@ -35,19 +36,6 @@ let paginas = [
     }
 ];
 
-
-function Story (props){
-    return (
-        <div className="story">
-            <div className="imagem">
-                <img src={props.img} />
-            </div>
-            <div className="usuario">
-                {props.nome}
-            </div>
-        </div>
-    )
-}
 
 export default function Stories(){
     return(

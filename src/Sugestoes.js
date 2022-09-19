@@ -1,3 +1,6 @@
+import Sugestao from './Sugestao';
+
+
 let paginas = [
     {
         usuario:"bad vibe memes",
@@ -25,27 +28,6 @@ let paginas = [
         texto:'Segue Você'
     }
 ]
-
-
-
-
-function Sugestao (props){
-    return(
-        <div className="sugestao">
-
-            <div className="usuario">
-                <img src={props.img} />
-                <div className="texto">
-                    <div>{props.usuario}</div>
-                    <div>{props.texto}</div>
-                </div>
-
-            </div>
-
-            <div className="seguir">Seguir</div>
-        </div>
-    )
-}
 
 
 
